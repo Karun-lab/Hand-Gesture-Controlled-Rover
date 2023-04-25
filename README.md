@@ -1,2 +1,4 @@
 # Hand-Gesture-Controlled-Rover
 This is a project to control the drive of a mini rover. The setup involves two major components. The primary Component is the Laptop running a python script that detects hand gestures and transmits the data over radio via a radio module hooked up with an Arduino which in turn is connected to the laptop. The second component is the Mini Rover itself which will be controlled with our hand moments. The rover is set up with an Arduino to receive the signal from the laptop via a receiver radio module & a motor driver to control 4 motors that drive the rover. 
+
+This project was part of practical implementation of OpenCV. The laptop captured the hand gestures through a camera and sent continuous information to a mobile robot via radio communication at 2.4GHz frequency. The robot turned right when the right hand was shown to the camera, turned left when the left hand was shown, and moved forward when both hands were shown simultaneously. 
